@@ -13,7 +13,7 @@ namespace MergeSort
 
             Random random = new Random(DateTime.Now.Millisecond);
 
-            Console.WriteLine("Original array:");
+            Console.WriteLine("Initial array is: ");
             for (int i = 0; i < 21; i++)
             {
                 unsorted.Add(random.Next(0, 100));
@@ -23,7 +23,7 @@ namespace MergeSort
 
             sorted = MergeSort(unsorted);
 
-            Console.WriteLine("Sorted array: ");
+            Console.WriteLine("Sorted array is: ");
             foreach (int x in sorted)
             {
                 Console.Write(x + " ");

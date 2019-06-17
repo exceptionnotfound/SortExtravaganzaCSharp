@@ -11,7 +11,7 @@ namespace SelectionSort
             Console.WriteLine("Selection Sort");
 
             //First, output starting state of the array
-            Console.Write("Array starts as: ");
+            Console.Write("Initial array is: ");
             for (int i = 0; i < count; i++)
             {
                 Console.Write(array[i] + " ");

@@ -8,7 +8,7 @@ namespace BubbleSort
         {
             int[] array = { 92, 28, 3, 71, 50, 14, 24, 20, 66, 70, 45, 17, 9, 99, 38 };
             int temp;
-            Console.Write("Original array: ");
+            Console.Write("Initial array is: ");
             foreach (int value in array)
             {
                 Console.Write(value + " ");
@@ -28,7 +28,7 @@ namespace BubbleSort
                     //3. Repeat this for all pairs of elements.
                 }
             }
-            Console.Write("\n" + "Sorted array: ");
+            Console.Write("\n" + "Sorted array is: ");
             foreach (int value in array)
             {
                 Console.Write(value + " ");
