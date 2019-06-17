@@ -3,7 +3,7 @@
 namespace CountingSort
 {
     //This algorithm assumes we know the range of correct values.  
-    //For this demo, we are assuming a range of 0-100.
+    //For this demo,we are assuming a range of 0-100.
     class Program
     {
         static void CountingSort(int[] array)
