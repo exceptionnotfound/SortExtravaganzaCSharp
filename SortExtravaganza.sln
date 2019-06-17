@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{B44301FC-95A2-4F6F-8084-6E6E6B09D4BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{B44301FC-95A2-4F6F-8084-6E6E6B09D4BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{20A04105-F66E-438D-886E-7748399196ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSort", "MergeSort\MergeSort.csproj", "{20A04105-F66E-438D-886E-7748399196ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{4CE92EF7-25D0-4439-8E8B-74A07EDC1809}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{4CE92EF7-25D0-4439-8E8B-74A07EDC1809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{5E80700F-79D7-4775-9F3D-DD3A0CE2E039}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{5E80700F-79D7-4775-9F3D-DD3A0CE2E039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitonicMergeSort", "BitonicMergeSort\BitonicMergeSort.csproj", "{CD770637-866F-4AF5-A441-BF97FC1EE8CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5E80700F-79D7-4775-9F3D-DD3A0CE2E039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E80700F-79D7-4775-9F3D-DD3A0CE2E039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E80700F-79D7-4775-9F3D-DD3A0CE2E039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
