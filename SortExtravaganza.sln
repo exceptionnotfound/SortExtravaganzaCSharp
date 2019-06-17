@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSort", "InsertionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitonicMergeSort", "BitonicMergeSort\BitonicMergeSort.csproj", "{CD770637-866F-4AF5-A441-BF97FC1EE8CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigeonholeSort", "PigeonholeSort\PigeonholeSort.csproj", "{439DD393-CBB0-47A3-B79E-41E0F3598DE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD770637-866F-4AF5-A441-BF97FC1EE8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439DD393-CBB0-47A3-B79E-41E0F3598DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439DD393-CBB0-47A3-B79E-41E0F3598DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439DD393-CBB0-47A3-B79E-41E0F3598DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439DD393-CBB0-47A3-B79E-41E0F3598DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
