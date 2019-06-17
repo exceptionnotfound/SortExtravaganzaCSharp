@@ -16,6 +16,7 @@ namespace SelectionSort
             {
                 Console.Write(array[i] + " ");
             }
+            Console.WriteLine();
 
             int temp, smallest;
 
@@ -39,7 +40,6 @@ namespace SelectionSort
                 array[smallest] = array[i];
                 array[i] = temp;
             }
-            Console.WriteLine();
 
             //Output final state of the array
             Console.Write("Sorted array is: ");
