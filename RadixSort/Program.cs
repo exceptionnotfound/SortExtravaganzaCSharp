@@ -53,8 +53,8 @@ namespace RadixSort
                 count[(array[i] / exponent) % 10]++;
             }
 
-            // Change count[i] so that count[i] now contains actual position of  
-            // this character in the output array.
+            //Change count[i] so that count[i] now contains actual position of  
+            //this character in the output array.
             for (i = 1; i < 10; i++)
             {
                 count[i] += count[i - 1];
@@ -68,7 +68,7 @@ namespace RadixSort
                 count[(array[i] / exponent) % 10]--;
             }
 
-            // Copy the output array to the final array
+            //Copy the output array to the final array.
             for (i = 0; i < length; i++)
             {
                 array[i] = output[i];

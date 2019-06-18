@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{5E80700F-79D7-4775-9F3D-DD3A0CE2E039}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitonicMergeSort", "BitonicMergeSort\BitonicMergeSort.csproj", "{CD770637-866F-4AF5-A441-BF97FC1EE8CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitonicMergeSort", "BitonicMergeSort\BitonicMergeSort.csproj", "{CD770637-866F-4AF5-A441-BF97FC1EE8CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PigeonholeSort", "PigeonholeSort\PigeonholeSort.csproj", "{439DD393-CBB0-47A3-B79E-41E0F3598DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PigeonholeSort", "PigeonholeSort\PigeonholeSort.csproj", "{439DD393-CBB0-47A3-B79E-41E0F3598DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSort", "CountingSort\CountingSort.csproj", "{8AE5B721-DB8E-461E-8D33-3C78E62E393D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingSort", "CountingSort\CountingSort.csproj", "{8AE5B721-DB8E-461E-8D33-3C78E62E393D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadixSort", "RadixSort\RadixSort.csproj", "{C0836A01-E6C2-48B1-882B-D5255811CDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadixSort", "RadixSort\RadixSort.csproj", "{C0836A01-E6C2-48B1-882B-D5255811CDFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombSort", "CombSort\CombSort.csproj", "{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{C0836A01-E6C2-48B1-882B-D5255811CDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0836A01-E6C2-48B1-882B-D5255811CDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0836A01-E6C2-48B1-882B-D5255811CDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
