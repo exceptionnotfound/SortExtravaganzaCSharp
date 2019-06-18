@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace CountingSort
 {
@@ -50,19 +51,13 @@ namespace CountingSort
         {
             int[] array = { 64, 11, 83, 8, 13, 45, 92, 98, 55, 17, 41, 81, 11, 64, 14, 41, 11, 92 };
 
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < array.Length; ++i)
-            {
-                Console.Write($"{array[i]}, ");
-            }
+            Console.WriteLine("Counting Sort");
+
+            CommonFunctions.PrintInitial(array);
 
             CountingSort(array);
 
-            Console.Write("\nSorted array is: ");
-            for (int i = 0; i < array.Length; ++i)
-            {
-                Console.Write($"{array[i]}, ");
-            }
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
     }

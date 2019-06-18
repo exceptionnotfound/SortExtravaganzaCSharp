@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 using System.Linq;
 
 namespace RadixSort
@@ -11,11 +12,7 @@ namespace RadixSort
             int length = array.Length;
 
             Console.WriteLine("Radix Sort");
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+            CommonFunctions.PrintInitial(array);
 
             int max = array.Max();
             for (int exp = 1; max / exp > 0; exp *= 10)
@@ -23,11 +20,7 @@ namespace RadixSort
                 CountingSort(array, length, exp);
             }
 
-            Console.Write("\nSorted array is: ");
-            for (int i = 0; i < length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
 

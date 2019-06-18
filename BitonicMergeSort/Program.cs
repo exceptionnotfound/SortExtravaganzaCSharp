@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace BitonicMergeSort
 {
@@ -79,20 +80,11 @@ namespace BitonicMergeSort
 
             Console.WriteLine("Bitonic Merge Sort");
 
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
-            Console.WriteLine();
+            CommonFunctions.PrintInitial(array);
 
             Sort(array, length, 1); //1 is for sorting in ascending order
 
-            Console.Write("Sorted array is: ");
-            for (int i = 0; i < length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
     }

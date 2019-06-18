@@ -8,6 +8,7 @@ namespace BogoSort
         static void Main(string[] args)
         {
             List<int> list = new List<int>() { 2, 1, 3, 0 };
+            Console.WriteLine("BogoSort");
             Console.WriteLine("Sorting...");
             BogoSort(list);
             Console.WriteLine("Press any key to exit.");

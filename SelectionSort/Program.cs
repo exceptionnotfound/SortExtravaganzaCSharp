@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace SelectionSort
 {
@@ -11,12 +12,7 @@ namespace SelectionSort
             Console.WriteLine("Selection Sort");
 
             //First, output starting state of the array
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < count; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
-            Console.WriteLine();
+            CommonFunctions.PrintInitial(array);
 
             int temp, smallest;
 
@@ -42,11 +38,7 @@ namespace SelectionSort
             }
 
             //Output final state of the array
-            Console.Write("Sorted array is: ");
-            for (int i = 0; i < count; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+            CommonFunctions.PrintFinal(array);
 
             //We call ReadLine here to avoid noisy output in the command line.
             Console.ReadLine();

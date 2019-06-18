@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 using System.Collections.Generic;
 
 namespace BucketSort
@@ -68,18 +69,13 @@ namespace BucketSort
         {
             int[] array = new int[] { 43, 17, 87, 92, 13, 6, 96, 12, 66, 62, 4 };
 
-            Console.Write("Initial array is: ");
-            foreach (int i in array)
-            {
-                Console.Write($"{i}, ");
-            }
+            Console.WriteLine("Bucket Sort");
+
+            CommonFunctions.PrintInitial(array);
 
             List<int> sorted = BucketSort(array);
-            Console.Write("\nSorted array is: ");
-            foreach (int i in sorted)
-            {
-                Console.Write($"{i}, ");
-            }
+
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
     }

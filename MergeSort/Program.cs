@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,27 +9,18 @@ namespace MergeSort
     {
         static void Main(string[] args)
         {
-            List<int> unsorted = new List<int>();
+            List<int> unsorted = new List<int>() { 42, 13, 86, 9, 10, 55, 71 };
             List<int> sorted;
 
             Random random = new Random(DateTime.Now.Millisecond);
 
-            Console.WriteLine("Initial array is: ");
-            for (int i = 0; i < 21; i++)
-            {
-                unsorted.Add(random.Next(0, 100));
-                Console.Write(unsorted[i] + " ");
-            }
-            Console.WriteLine();
+            Console.WriteLine("Merge Sort");
+
+            CommonFunctions.PrintInitial(unsorted);
 
             sorted = MergeSort(unsorted);
 
-            Console.WriteLine("Sorted array is: ");
-            foreach (int x in sorted)
-            {
-                Console.Write(x + " ");
-            }
-            Console.Write("\n");
+            CommonFunctions.PrintFinal(sorted);
             Console.ReadLine();
         }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace InsertionSort
 {
@@ -9,11 +10,9 @@ namespace InsertionSort
             int count = 15;
             int[] array = new int[15] { 55, 97, 76, 60, 4, 18, 37, 34, 88, 51, 43, 49, 19, 12, 63 };
             Console.WriteLine("Insertion Sort");
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < count; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+
+            CommonFunctions.PrintInitial(array);
+
             //1. For each value in the array...
             for (int i = 1; i < count; i++)
             {

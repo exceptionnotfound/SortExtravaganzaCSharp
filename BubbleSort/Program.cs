@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace BubbleSort
 {
@@ -8,11 +9,8 @@ namespace BubbleSort
         {
             int[] array = { 92, 28, 3, 71, 50, 14, 24, 20, 66, 70, 45, 17, 9, 99, 38 };
             int temp;
-            Console.Write("Initial array is: ");
-            foreach (int value in array)
-            {
-                Console.Write(value + " ");
-            }
+            Console.WriteLine("Bubble Sort");
+            CommonFunctions.PrintInitial(array);
             //1. For each item in the array...
             for (int i = 0; i <= array.Length - 2; i++)
             {
@@ -28,12 +26,7 @@ namespace BubbleSort
                     //3. Repeat this for all pairs of elements.
                 }
             }
-            Console.Write("\n" + "Sorted array is: ");
-            foreach (int value in array)
-            {
-                Console.Write(value + " ");
-            }
-            Console.Write("\n");
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace PigeonholeSort
 {
@@ -9,20 +10,13 @@ namespace PigeonholeSort
         {
             int[] array = { 64, 11, 83, 8, 13, 45, 92, 98, 55, 17, 41, 81 };
 
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
-            Console.WriteLine();
+            Console.WriteLine("Pigeonhole Sort");
+
+            CommonFunctions.PrintInitial(array);
 
             PigeonholeSort(array, array.Length);
 
-            Console.Write("Sorted array is: ");
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
 

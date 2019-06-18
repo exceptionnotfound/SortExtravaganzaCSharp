@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SortExtravaganza.Common;
+using System;
 
 namespace CombSort
 {
@@ -11,21 +12,15 @@ namespace CombSort
     {
         public static void Main()
         {
-            int[] arr = { 10, 28, 1, 55, 6, 21, 36, 3, 45, 15, 0 };
+            int[] array = { 10, 28, 1, 55, 6, 21, 36, 3, 45, 15, 0 };
 
-            Console.Write("Initial array is: ");
-            for (int i = 0; i < arr.Length; ++i)
-            {
-                Console.Write(arr[i] + " ");
-            }
+            Console.WriteLine("Comb Sort");
 
-            CombSort(arr);
+            CommonFunctions.PrintInitial(array);
 
-            Console.Write("\nSorted array is: ");
-            for (int i = 0; i < arr.Length; ++i)
-            {
-                Console.Write(arr[i] + " ");
-            }
+            CombSort(array);
+
+            CommonFunctions.PrintFinal(array);
             Console.ReadLine();
 
         }
