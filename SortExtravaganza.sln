@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeapSort", "HeapSort\HeapSo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimSort", "TimSort\TimSort.csproj", "{850D7C4C-1D54-40AF-8E3F-D43E5311D5DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{C45BE097-7746-4FB2-A1B1-A2909C318EA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{850D7C4C-1D54-40AF-8E3F-D43E5311D5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850D7C4C-1D54-40AF-8E3F-D43E5311D5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850D7C4C-1D54-40AF-8E3F-D43E5311D5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45BE097-7746-4FB2-A1B1-A2909C318EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45BE097-7746-4FB2-A1B1-A2909C318EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45BE097-7746-4FB2-A1B1-A2909C318EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45BE097-7746-4FB2-A1B1-A2909C318EA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
