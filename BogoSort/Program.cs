@@ -3,19 +3,19 @@ using System.Collections.Generic;
 
 namespace BogoSort
 {
-    class Program
+    class BogoSort
     {
         static void Main(string[] args)
         {
             List<int> list = new List<int>() { 2, 1, 3, 0 };
             Console.WriteLine("BogoSort");
             Console.WriteLine("Sorting...");
-            BogoSort(list);
+            Sort(list);
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
 
-        static void BogoSort(List<int> list)
+        static void Sort(List<int> list)
         {
             int iteration = 0;
             while (!IsSorted(list))

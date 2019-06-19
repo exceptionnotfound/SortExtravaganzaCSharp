@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace RadixSort
 {
-    class Program
+    class RadixSort
     {
         public static void Main()
         {

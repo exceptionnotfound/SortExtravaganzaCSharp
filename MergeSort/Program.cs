@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MergeSort
 {
-    class Program
+    class MergeSort
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace MergeSort
 
             CommonFunctions.PrintInitial(unsorted);
 
-            sorted = MergeSort(unsorted);
+            sorted = Sort(unsorted);
 
             CommonFunctions.PrintFinal(sorted);
             Console.ReadLine();
@@ -26,7 +26,7 @@ namespace MergeSort
 
         //Uses recursion to break the collection into progressively smaller collections.
         //Eventually, each collection will have just one element.
-        private static List<int> MergeSort(List<int> unsorted)
+        private static List<int> Sort(List<int> unsorted)
         {
             if (unsorted.Count <= 1)
                 return unsorted;
@@ -44,8 +44,8 @@ namespace MergeSort
                 right.Add(unsorted[i]);
             }
 
-            left = MergeSort(left);
-            right = MergeSort(right);
+            left = Sort(left);
+            right = Sort(right);
             return Merge(left, right);
         }
 

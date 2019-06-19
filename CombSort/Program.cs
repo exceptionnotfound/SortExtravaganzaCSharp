@@ -8,7 +8,7 @@ namespace CombSort
     //until it is comparing elements that are next to each other.
     //The gap is length of the list N divided by shrink factor K.
     //K has been empirically proven to be most efficient at 1.3.
-    class Program
+    class CombSort
     {
         public static void Main()
         {
@@ -18,7 +18,7 @@ namespace CombSort
 
             CommonFunctions.PrintInitial(array);
 
-            CombSort(array);
+            Sort(array);
 
             CommonFunctions.PrintFinal(array);
             Console.ReadLine();
@@ -36,7 +36,7 @@ namespace CombSort
             return gap;
         }
 
-        static void CombSort(int[] array)
+        static void Sort(int[] array)
         {
             int length = array.Length;
 

@@ -3,7 +3,7 @@ using System;
 
 namespace InsertionSort
 {
-    class Program
+    class InsertionSort
     {
         static void Main(string[] args)
         {

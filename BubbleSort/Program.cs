@@ -3,7 +3,7 @@ using System;
 
 namespace BubbleSort
 {
-    class Program
+    class BubbleSort
     {
         public static void Main(string[] args)
         {

@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingSort", "CountingSor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadixSort", "RadixSort\RadixSort.csproj", "{C0836A01-E6C2-48B1-882B-D5255811CDFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombSort", "CombSort\CombSort.csproj", "{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombSort", "CombSort\CombSort.csproj", "{CE0C8A45-81B5-4B1B-8E2E-7E979A65D67B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketSort", "BucketSort\BucketSort.csproj", "{0B6104D1-4F64-4132-B8B3-651B1A8DBF06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BucketSort", "BucketSort\BucketSort.csproj", "{0B6104D1-4F64-4132-B8B3-651B1A8DBF06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BogoSort", "BogoSort\BogoSort.csproj", "{829F9F8A-C5BD-4241-BC4C-0AAD7EE75C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BogoSort", "BogoSort\BogoSort.csproj", "{829F9F8A-C5BD-4241-BC4C-0AAD7EE75C6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellSort", "ShellSort\ShellSort.csproj", "{B47A24E0-6E4D-40C8-8F57-BC63E4706546}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShellSort", "ShellSort\ShellSort.csproj", "{B47A24E0-6E4D-40C8-8F57-BC63E4706546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{23F445B8-CD5E-4221-84C2-06C7F61E11AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{23F445B8-CD5E-4221-84C2-06C7F61E11AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GnomeSort", "GnomeSort\GnomeSort.csproj", "{13E44E37-0C2E-4D68-8605-4D4C33147776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{23F445B8-CD5E-4221-84C2-06C7F61E11AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23F445B8-CD5E-4221-84C2-06C7F61E11AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23F445B8-CD5E-4221-84C2-06C7F61E11AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

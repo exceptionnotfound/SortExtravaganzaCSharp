@@ -3,7 +3,7 @@ using System;
 
 namespace PigeonholeSort
 {
-    class Program
+    class PigeonholeSort
     {
         // Driver Code 
         public static void Main(string[] args)
@@ -14,13 +14,13 @@ namespace PigeonholeSort
 
             CommonFunctions.PrintInitial(array);
 
-            PigeonholeSort(array, array.Length);
+            Sort(array, array.Length);
 
             CommonFunctions.PrintFinal(array);
             Console.ReadLine();
         }
 
-        public static void PigeonholeSort(int[] array, int n)
+        public static void Sort(int[] array, int n)
         {
             //1. Find the min, max, and range of values in the array
             int min = array[0];

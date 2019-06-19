@@ -9,9 +9,9 @@ namespace BucketSort
     //To use this algorithm, we must determine how many buckets our numbers can be sorted into.
     //Because our starting array has numbers in the range 1-99, we will use 10 buckets based on
     //the least-significant digit of the value.
-    class Program
+    class BucketSort
     {
-        public static List<int> BucketSort(params int[] x)
+        public static List<int> Sort(params int[] x)
         {
             List<int> sortedArray = new List<int>();
 
@@ -73,7 +73,7 @@ namespace BucketSort
 
             CommonFunctions.PrintInitial(array);
 
-            List<int> sorted = BucketSort(array);
+            List<int> sorted = Sort(array);
 
             CommonFunctions.PrintFinal(array);
             Console.ReadLine();

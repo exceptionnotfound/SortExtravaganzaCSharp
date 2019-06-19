@@ -3,7 +3,7 @@ using System;
 
 namespace SelectionSort
 {
-    class Program
+    class SelectionSort
     {
         static void Main(string[] args)
         {

@@ -6,7 +6,7 @@ namespace BitonicMergeSort
     /// <summary>
     /// Bitonic merge sort only works with collections that are powers of 2.
     /// </summary>
-    class Program
+    class BitonicMergeSort
     {
         static void Swap<T>(ref T leftHandSide, ref T rightHandSide)
         {

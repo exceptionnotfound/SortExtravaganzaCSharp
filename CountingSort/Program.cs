@@ -5,9 +5,9 @@ namespace CountingSort
 {
     //This algorithm assumes we know the range of correct values.  
     //For this demo,we are assuming a range of 0-100.
-    class Program
+    class CountingSort
     {
-        static void CountingSort(int[] array)
+        static void Sort(int[] array)
         {
             int length = array.Length;
 
@@ -55,7 +55,7 @@ namespace CountingSort
 
             CommonFunctions.PrintInitial(array);
 
-            CountingSort(array);
+            Sort(array);
 
             CommonFunctions.PrintFinal(array);
             Console.ReadLine();

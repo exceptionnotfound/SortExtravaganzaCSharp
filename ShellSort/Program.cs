@@ -15,7 +15,7 @@ namespace ShellSort
             Console.WriteLine();
         }
 
-        int Sort(int[] array)
+        static int Sort(int[] array)
         {
             int length = array.Length;
 
@@ -46,8 +46,7 @@ namespace ShellSort
 
             CommonFunctions.PrintInitial(array);
 
-            ShellSort ob = new ShellSort();
-            ob.Sort(array);
+            Sort(array);
 
             CommonFunctions.PrintFinal(array);
             Console.ReadKey();
