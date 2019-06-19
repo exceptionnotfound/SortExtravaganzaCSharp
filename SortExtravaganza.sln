@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GnomeSort", "GnomeSort\GnomeSort.csproj", "{13E44E37-0C2E-4D68-8605-4D4C33147776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailShakerSort", "CocktailShakerSort\CocktailShakerSort.csproj", "{AE2D2AE7-AD30-4968-98BF-36553D749383}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E44E37-0C2E-4D68-8605-4D4C33147776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2D2AE7-AD30-4968-98BF-36553D749383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2D2AE7-AD30-4968-98BF-36553D749383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2D2AE7-AD30-4968-98BF-36553D749383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2D2AE7-AD30-4968-98BF-36553D749383}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
