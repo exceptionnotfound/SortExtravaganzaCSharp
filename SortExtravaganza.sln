@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenSort", "OddEvenSort\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeSort", "TreeSort\TreeSort.csproj", "{A4C7862F-0455-49BE-B2E1-D010C721364B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeadSort", "BeadSort\BeadSort.csproj", "{0B87CAFC-7EE2-48C2-9FE8-CD9F6257D9AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{A4C7862F-0455-49BE-B2E1-D010C721364B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4C7862F-0455-49BE-B2E1-D010C721364B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4C7862F-0455-49BE-B2E1-D010C721364B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B87CAFC-7EE2-48C2-9FE8-CD9F6257D9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B87CAFC-7EE2-48C2-9FE8-CD9F6257D9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B87CAFC-7EE2-48C2-9FE8-CD9F6257D9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B87CAFC-7EE2-48C2-9FE8-CD9F6257D9AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
