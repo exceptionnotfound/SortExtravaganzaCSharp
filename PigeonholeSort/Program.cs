@@ -5,7 +5,6 @@ namespace PigeonholeSort
 {
     class PigeonholeSort
     {
-        // Driver Code 
         public static void Main(string[] args)
         {
             int[] array = { 64, 11, 83, 8, 13, 45, 92, 98, 55, 17, 41, 81 };

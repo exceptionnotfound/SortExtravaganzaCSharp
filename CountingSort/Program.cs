@@ -25,22 +25,22 @@ namespace CountingSort
                 ++count[array[i]];
             }
 
-            // Change count[i] so that count[i] now contains actual position of  
-            // this character in the output array.
+            //Change count[i] so that count[i] now contains actual position of  
+            //this character in the output array.
             for (int i = 1; i <= 99; ++i)
             {
                 count[i] += count[i - 1];
             }
 
-            // Build the output array.
-            // To make this sorting algorithm stable, we are operating in reverse order. 
+            //Build the output array.
+            //To make this sorting algorithm stable, we are operating in reverse order. 
             for (int i = length - 1; i >= 0; i--)
             {
                 output[count[array[i]] - 1] = array[i];
                 --count[array[i]];
             }
 
-            // Copy the output array to the final array.
+            //Copy the output array to the final array.
             for (int i = 0; i < length; ++i)
             {
                 array[i] = output[i];
