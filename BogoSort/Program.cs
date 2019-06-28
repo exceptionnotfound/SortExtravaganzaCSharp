@@ -21,7 +21,7 @@ namespace BogoSort
             while (!IsSorted(list))
             {
                 PrintIteration(list, iteration);
-                list = Remap(list);
+                list = Shuffle(list); //Shuffle the numbers randomly
                 iteration++;
             }
 
@@ -52,7 +52,7 @@ namespace BogoSort
             return true;
         }
 
-        static List<int> Remap(List<int> list)
+        static List<int> Shuffle(List<int> list)
         {
             int temp;
             List<int> newList = new List<int>();
