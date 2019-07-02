@@ -28,10 +28,10 @@ namespace BitonicMergeSort
             }
         }
 
-        /*This method recursively sorts a bitonic sequence in ascending order,  
-          if dir = 1, and in descending order otherwise (means dir=0).  
-          The sequence to be sorted starts at index position low,  
-          the parameter count is the number of elements to be sorted.*/
+        //This method recursively sorts a bitonic sequence in ascending order,  
+        //if dir = 1, and in descending order otherwise (means dir=0).  
+        //The sequence to be sorted starts at index position low,  
+        //the parameter count is the number of elements to be sorted.
         static void BitonicMerge(int[] array, int low, int count, int direction)
         {
             if (count > 1)
@@ -46,9 +46,9 @@ namespace BitonicMergeSort
             }
         }
 
-        /* This function first produces a bitonic sequence by recursively  
-            sorting its two halves in opposite sorting directions, and then  
-            calls BitonicMerge to make them in the same direction */
+        //This function first produces a bitonic sequence by recursively  
+        //sorting its two halves in opposite sorting directions, and then  
+        //calls BitonicMerge to make them in the same direction
         static void BitonicSort(int[] array, int low, int count, int direction)
         {
             if (count > 1)
@@ -66,8 +66,8 @@ namespace BitonicMergeSort
             }
         }
 
-        /* Caller of bitonicSort for sorting the entire array of  
-           length N in ASCENDING order */
+        //Caller of bitonicSort for sorting the entire array of  
+        //length N in ascending order
         static void Sort(int[] array, int length, int up)
         {
             BitonicSort(array, 0, length, up);

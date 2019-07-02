@@ -17,7 +17,7 @@ namespace OddEvenSort
             {
                 isSorted = true;
 
-                //Do Bubble Sort on odd side
+                //Swap i and i+1 if they are out of order, for i == odd numbers
                 for (int i = 1; i <= length - 2; i = i + 2)
                 {
                     if (array[i] > array[i + 1])
@@ -29,7 +29,7 @@ namespace OddEvenSort
                     }
                 }
 
-                //Do Bubble Sort on even side
+                //Swap i and i+1 if they are out of order, for i == even numbers
                 for (int i = 0; i <= length - 2; i = i + 2)
                 {
                     if (array[i] > array[i + 1])
