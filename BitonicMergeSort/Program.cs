@@ -66,13 +66,6 @@ namespace BitonicMergeSort
             }
         }
 
-        //Caller of bitonicSort for sorting the entire array of  
-        //length N in ascending order
-        static void Sort(int[] array, int length, int up)
-        {
-            BitonicSort(array, 0, length, up);
-        }
-
         public static void Main()
         {
             int[] array = { 66, 98, 11, 43, 7, 28, 14, 49, 77, 61, 31, 12, 71, 93, 15, 2  };
@@ -82,7 +75,7 @@ namespace BitonicMergeSort
 
             CommonFunctions.PrintInitial(array);
 
-            Sort(array, length, 1); //1 is for sorting in ascending order
+            BitonicSort(array, 0 /*low value*/, length, 1); //1 is for sorting in ascending order
 
             CommonFunctions.PrintFinal(array);
             Console.ReadLine();

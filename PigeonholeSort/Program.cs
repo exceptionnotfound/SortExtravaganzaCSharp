@@ -1,68 +1,59 @@
 ﻿using SortExtravaganza.Common;
 using System;
+using System.Linq;
 
 namespace PigeonholeSort
 {
     class PigeonholeSort
     {
-        public static void Main(string[] args)
+        public static void Sort(int[] array)
         {
-            int[] array = { 64, 11, 83, 8, 13, 45, 92, 98, 55, 17, 41, 81 };
+            int length = array.Length;
 
-            Console.WriteLine("Pigeonhole Sort");
-
-            CommonFunctions.PrintInitial(array);
-
-            Sort(array, array.Length);
-
-            CommonFunctions.PrintFinal(array);
-            Console.ReadLine();
-        }
-
-        public static void Sort(int[] array, int n)
-        {
-            //1. Find the min, max, and range of values in the array
-            int min = array[0];
-            int max = array[0];
+            //Find the range of values in the array
+            int min = array.Min();
+            int max = array.Max();
             int range = max - min + 1;
 
-            for (int a = 0; a < n; a++)
-            {
-                if (array[a] > max)
-                {
-                    max = array[a];
-                }
-                if (array[a] < min)
-                {
-                    min = array[a];
-                }
-            }
-
-            //2. Create a new array of "pigeonholes" with the same number of holes as the number of elements in the array.
+            //Create a set of pigeonholes with the size of the range of values
             int[] pigeonholes = new int[range];
-
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < length; i++)
             {
                 pigeonholes[i] = 0;
             }
 
-            //3. For each value in the array, place it in its appropriate pigeonhole.  
-            for (int i = 0; i < n; i++)
+            //For each value in the array, mark how many times the index of the pigeonhole appeared in the root array.
+            for (int i = 0; i < length; i++)
             {
                 pigeonholes[array[i] - min]++;
             }
 
-
-            //4. For each value in the pigeonholes, place it into its final sorted position.
             int index = 0;
+
+            //Use the pigeonhole array to sort the main array.
             for (int j = 0; j < range; j++)
             {
+                //We are using a post-decrement here to keep track of the number of values we've already added to the array.
                 while (pigeonholes[j]-- > 0)
                 {
-                    array[index++] = j + min;
+                    array[index] = j + min;
+                    index++;
                 }
             }
 
+        }
+
+        static void Main()
+        {
+            int[] array = {51, 18, 99, 23, 40, 1, 82, 85, 18, 12, 76};
+
+            CommonFunctions.PrintInitial(array);
+
+            Sort(array);
+
+            CommonFunctions.PrintFinal(array);
+
+            Console.ReadLine();
         }
     }
 }
