@@ -67,7 +67,7 @@ namespace BucketSort
         }
         static void Main(string[] args)
         {
-            int[] array = new int[] { 43, 17, 87, 92, 13, 6, 96, 12, 66, 62, 4 };
+            int[] array = new int[] { 43, 17, 87, 92, 31, 6, 96, 13, 66, 62, 4 };
 
             Console.WriteLine("Bucket Sort");
 
@@ -75,7 +75,7 @@ namespace BucketSort
 
             List<int> sorted = Sort(array);
 
-            CommonFunctions.PrintFinal(array);
+            CommonFunctions.PrintFinal(sorted);
             Console.ReadLine();
         }
     }
