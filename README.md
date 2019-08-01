@@ -4,15 +4,15 @@ This project contains many example C# projects demonstrating how can implement v
 
 Here is the publishing schedule for this series:
 
-Jul 18: Selection Sort
+Jul 18: [Selection Sort](https://exceptionnotfound.net/selection-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Jul 22: Merge Sort
+Jul 22: [Merge Sort](https://exceptionnotfound.net/merge-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Jul 25: Insertion Sort
+Jul 25: [Insertion Sort](https://exceptionnotfound.net/insertion-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Jul 29: Shell Sort
+Jul 29: [Shell Sort](https://exceptionnotfound.net/shell-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 1: Comb Sort
+Aug 1: [Comb Sort](https://exceptionnotfound.net/comb-sort-csharp-the-sorting-algorithm-family-reunion/)
 
 Aug 5: Quick Sort
 
