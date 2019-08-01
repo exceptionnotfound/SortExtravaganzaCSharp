@@ -26,8 +26,8 @@ namespace RadixSort
 
         //This is a modified version of Counting Sort from an earlier post
         //We need to do Counting Sort against each group of integers,
-        //where the groups are made based on the number of significant digits.
-        //So, we do Counting Sort on all 1-digit numbers, all 2-digit numbers, etc.
+        //where the groups are made based on the position of significant digits.
+        //So, we use Counting Sort on the least-significant digit, then the next-least, etc.
         //After that, we concatenate the groups together to form the final array.
         public static void CountingSort(int[] array, int length, int exponent)
         {
