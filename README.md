@@ -14,7 +14,7 @@ Jul 29: [Shell Sort](https://exceptionnotfound.net/shell-sort-csharp-the-sorting
 
 Aug 1: [Comb Sort](https://exceptionnotfound.net/comb-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 5: Quick Sort
+Aug 5: [Quick Sort](https://exceptionnotfound.net/quick-sort-csharp-the-sorting-algorithm-family-reunion/)
 
 Aug 8: Heap Sort
 
