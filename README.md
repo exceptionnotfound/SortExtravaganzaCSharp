@@ -16,9 +16,9 @@ Aug 1: [Comb Sort](https://exceptionnotfound.net/comb-sort-csharp-the-sorting-al
 
 Aug 5: [Quick Sort](https://exceptionnotfound.net/quick-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 8: Heap Sort
+Aug 8: [Heap Sort](https://exceptionnotfound.net/heap-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 12: Cocktail Shaker Sort
+Aug 12: [Cocktail Shaker Sort](https://exceptionnotfound.net/cocktail-shaker-sort-csharp-the-sorting-algorithm-family-reunion/)
 
 Aug 15: Bogo Sort
 
