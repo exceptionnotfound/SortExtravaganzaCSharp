@@ -22,11 +22,11 @@ Aug 12: [Cocktail Shaker Sort](https://exceptionnotfound.net/cocktail-shaker-sor
 
 Aug 15: [Bogo Sort](https://exceptionnotfound.net/bogosort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 19: Bubble Sort
+Aug 19: [Bubble Sort](https://exceptionnotfound.net/bubble-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 22: Odd-Even Sort
+Aug 22: [Odd-Even Sort](https://exceptionnotfound.net/odd-even-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 26: Counting Sort
+Aug 26: [Counting Sort](https://exceptionnotfound.net/counting-sort-csharp-the-sorting-algorithm-family-reunion/)
 
 Aug 29: Bitonic Merge Sort
 
