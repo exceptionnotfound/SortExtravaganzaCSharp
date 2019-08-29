@@ -28,7 +28,7 @@ Aug 22: [Odd-Even Sort](https://exceptionnotfound.net/odd-even-sort-csharp-the-s
 
 Aug 26: [Counting Sort](https://exceptionnotfound.net/counting-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Aug 29: Bitonic Merge Sort
+Aug 29: [Bitonic Merge Sort](https://exceptionnotfound.net/bitonic-merge-sort-csharp-the-sorting-algorithm-family-reunion/)
 
 Sep 5: Pigeonhole Sort
 
