@@ -30,14 +30,12 @@ Aug 26: [Counting Sort](https://exceptionnotfound.net/counting-sort-csharp-the-s
 
 Aug 29: [Bitonic Merge Sort](https://exceptionnotfound.net/bitonic-merge-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Sep 5: Pigeonhole Sort
+Sep 5: [Pigeonhole Sort](https://exceptionnotfound.net/pigeonhole-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Sep 9: Gnome Sort
+Sep 9: [Gnome Sort](https://exceptionnotfound.net/gnome-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Sep 12: Radix Sort
+Sep 12: [Radix Sort](https://exceptionnotfound.net/radix-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Sep 16: Bead Sort
-
-Sep 19: Bucket Sort
+Sep 16: Bucket Sort
 
 If you like this series, or these helped you out in some way, would you consider [buying me a coffee](https://www.buymeacoffee.com/exceptionnotfnd)?
