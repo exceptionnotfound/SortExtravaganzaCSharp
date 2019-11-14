@@ -36,6 +36,6 @@ Sep 9: [Gnome Sort](https://exceptionnotfound.net/gnome-sort-csharp-the-sorting-
 
 Sep 12: [Radix Sort](https://exceptionnotfound.net/radix-sort-csharp-the-sorting-algorithm-family-reunion/)
 
-Sep 16: Bucket Sort
+Sep 16: [Bucket Sort](https://exceptionnotfound.net/bucket-sort-csharp-the-sorting-algorithm-family-reunion/)
 
 If you like this series, or these helped you out in some way, would you consider [buying me a coffee](https://www.buymeacoffee.com/exceptionnotfnd)?
