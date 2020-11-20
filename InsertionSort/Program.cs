@@ -26,7 +26,7 @@ namespace InsertionSort
                     //5. Then move the pointed-at value up one space, and store the
                     //   current value at the pointed-at position.
                     array[pointer + 1] = array[pointer];
-                    pointer = pointer - 1;
+                    pointer -= 1;
                 }
                 array[pointer + 1] = currentValue;
             }

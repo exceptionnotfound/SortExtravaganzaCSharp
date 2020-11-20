@@ -115,6 +115,9 @@ class TimSort
     {
         int[] array = { 68, 14, 27, 91, 32, 18, 45, 71, 5, 9, 32 };
         int length = array.Length;
+
+        Console.WriteLine("Timsort");
+
         CommonFunctions.PrintInitial(array);
 
         Sort(array, length);

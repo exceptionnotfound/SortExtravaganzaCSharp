@@ -49,6 +49,8 @@ namespace OddEvenSort
             int[] array = { 71, 42, 19, 3, 33, 28, 0, 89, 44, 2, 81 };
             int length = array.Length;
 
+            Console.WriteLine("Odd-Even Sort");
+
             CommonFunctions.PrintInitial(array);
 
             Sort(array, length);

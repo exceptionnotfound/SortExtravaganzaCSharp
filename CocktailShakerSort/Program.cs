@@ -40,7 +40,7 @@ namespace CocktailShakerSort
                 isSwapped = false;
 
                 //The item we just moved is in its rightful place, so we no longer need to consider it unsorted.
-                end = end - 1;
+                end -= 1;
 
                 //Now we bubble sort from high to low
                 for (int i = end - 1; i >= start; i--)
@@ -55,7 +55,7 @@ namespace CocktailShakerSort
                 }
 
                 //Finally, we need to increase the starting point for the next low-to-high pass.
-                start = start + 1;
+                start += 1;
             }
         }
 

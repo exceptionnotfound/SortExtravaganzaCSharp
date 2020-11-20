@@ -23,8 +23,7 @@ namespace GnomeSort
                 }
                 else //If the pots are in the wrong order, he switches them.
                 {
-                    int temp = 0;
-                    temp = arr[index];
+                    int temp = arr[index];
                     arr[index] = arr[index - 1];
                     arr[index - 1] = temp;
                     index--;
@@ -36,6 +35,8 @@ namespace GnomeSort
         public static void Main()
         {
             int[] array = { 84, 61, 15, 2, 7, 55, 19, 40, 78, 33 };
+
+            Console.WriteLine("Gnome Sort");
 
             CommonFunctions.PrintInitial(array);
 

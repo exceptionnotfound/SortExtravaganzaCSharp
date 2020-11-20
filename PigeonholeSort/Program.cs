@@ -47,6 +47,8 @@ namespace PigeonholeSort
         {
             int[] array = { 51, 18, 99, 23, 40, 1, 82, 85, 18, 12, 76 };
 
+            Console.WriteLine("Pigeonhole Sort");
+
             CommonFunctions.PrintInitial(array);
 
             Sort(array);

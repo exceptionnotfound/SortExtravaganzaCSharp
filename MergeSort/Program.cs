@@ -12,8 +12,6 @@ namespace MergeSort
             List<int> unsorted = new List<int>() { 42, 13, 86, 9, 10, 55, 71 };
             List<int> sorted;
 
-            Random random = new Random(DateTime.Now.Millisecond);
-
             Console.WriteLine("Merge Sort");
 
             CommonFunctions.PrintInitial(unsorted);
